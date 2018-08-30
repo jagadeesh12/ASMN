@@ -1,0 +1,42 @@
+{ "573c9824d4b8171688e3ef623f5e4629": {
+        
+        "type": "Checkbox",
+        "xpath": " (//div[contains(@id,'573c9824d4b8171688e3ef623f5e4629')]//div[2]//input)[1]"     
+    },
+    
+
+ "846135c96595a35d55e7f2af65cc38a3": {
+        
+        "type": "Drag and drop",
+        "DropDownArray":  ["(.//span[starts-with(@class,'lrn_draggable')])[6]",
+        "(.//span[starts-with(@class,'lrn_cloze_response')])[3]",
+        "(.//span[starts-with(@class,'lrn_draggable')])[7]",
+        "(.//span[starts-with(@class,'lrn_cloze_response')])[4]"]
+    },
+    "10ef1fbacabb3c337ea74ce1abad5530": {
+        
+        "type":"Drag and drop",
+         "DropDownArray": ["(.//span[starts-with(@class,'lrn_draggable')][1])/span",
+        ".//div[contains(@id,'10ef1fbacabb3c337ea74ce1abad5530')]//span[starts-with(@class,'lrn_cloze_response')][1]",
+        ".//div[contains(@id,'10ef1fbacabb3c337ea74ce1abad5530')]//span[starts-with(@class,'lrn_draggable')][2]/span",
+         ".//div[contains(@id,'10ef1fbacabb3c337ea74ce1abad5530')]//span[starts-with(@class,'lrn_cloze_response')][2]"]
+    },
+    "8756ed08120a3e08d02f33d81a4a3145": {
+        
+        "type": "Dropdown",
+        "Number": "3",
+        "Dropdown1": "(//select)[1]",
+        "Dropdown2": "(//select)[2]",
+        "Dropdown3": "(//select)[3]"
+        
+    },
+    "3b2d578e57b86aa5397c3dba4b1a5002": {
+        
+        "type": "Checkbox",
+        "xpath": "(//div[@class='lrn_contentWrapper'])[1]"     
+    },
+    
+    
+    
+    
+}

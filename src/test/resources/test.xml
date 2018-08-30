@@ -1,0 +1,43 @@
+<testdata>
+    <testcase id="Look at the pattern. Then, select the shape that comes next.">
+			<type>Checkbox</type>
+			<xpath>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_573c9824d4b8171688e3ef623f5e4629_0']</xpath>
+	</testcase>
+    <testcase id="Look at the pattern. Then, move the two shapes that come next into the boxes.">
+			<type>Drag and drop</type>
+			<Number>2</Number>
+			<options>
+				<DragFrom1>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_10ef1fbacabb3c337ea74ce1abad5530']/div[2]/div/div[2]/div/div/div[2]/span[1]/span</DragFrom1>
+				<DragTo1>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_10ef1fbacabb3c337ea74ce1abad5530']/div[2]/div/div[2]/div/div/div[1]/span[1]</DragTo1>
+				<DragFrom2>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_10ef1fbacabb3c337ea74ce1abad5530']/div[2]/div/div[2]/div/div/div[2]/span[2]/span</DragFrom2>
+				<DragTo2>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_10ef1fbacabb3c337ea74ce1abad5530']/div[2]/div/div[2]/div/div/div[1]/span[2]</DragTo2>
+			</options>
+	</testcase>
+    <testcase id="Look at the pattern. Then, move the two shapes that come next into the boxes.">
+			<type>Drag and drop</type>
+			<Number>2</Number>
+			<options>
+				<DragFrom1>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_846135c96595a35d55e7f2af65cc38a3']/div[2]/div/div[2]/div/div/div[2]/span[1]/span</DragFrom1>
+				<DragTo1>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_846135c96595a35d55e7f2af65cc38a3']/div[2]/div/div[2]/div/div/div[1]/span[1]</DragTo1>
+				<DragFrom2>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_846135c96595a35d55e7f2af65cc38a3']/div[2]/div/div[2]/div/div/div[2]/span[2]/span</DragFrom2>
+				<DragTo2>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_846135c96595a35d55e7f2af65cc38a3']/div[2]/div/div[2]/div/div/div[1]/span[2]</DragTo2>
+			</options>
+	</testcase>
+    <testcase id="Look at the pattern. Then, describe the pattern. Select from the drop-down menus.">
+			<Type>Dropdown</Type>
+			<Number>3</Number>
+			<option>
+				<Dropdown1>(//select)[1]</Dropdown1>
+				<option1>(//option[2])[1]</option1>
+				<Dropdown2>(//select)[2]</Dropdown2>
+				<option2>(//option[2])[2]</option2>
+				<Dropdown3>(//select)[3]</Dropdown3>
+				<option3>(//option[2])[3]</option3>
+			</option>
+			
+	</testcase>
+	<testcase id="Look at the pattern. Then, select the shape that comes next.">
+			<type>Checkbox</type>
+			<xpath>.//*[@id='6685303c-e535-4e2a-801c-3c091afb6fa6_3b2d578e57b86aa5397c3dba4b1a5002_0']</xpath>
+	</testcase>
+</testdata>"src/test/resources/test.xml"

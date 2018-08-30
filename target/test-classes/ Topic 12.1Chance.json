@@ -1,0 +1,39 @@
+{ "Look at the pattern. Then, select the shape that comes next. ": {
+        
+        "type": "Checkbox",
+        "xpath": ".//*[@class='lrn_response lrn_clearfix ']/ul/li[1]"     
+    },
+    
+
+ "Look at the pattern. Then, move the two shapes that come next into the boxes1.": {
+        
+        "type": "Drag and drop",
+        "Number": "2",
+        "DragFrom1": ".//span[starts-with(@class,'lrn_draggable')][1]",
+        "DragTo1": ".//span[starts-with(@class,'lrn_cloze_response')][1]",
+        "DragFrom2": ".//span[starts-with(@class,'lrn_draggable')][2]",
+        "DragTo2": ".//span[starts-with(@class,'lrn_cloze_response')][2]"
+    },
+    "Look at the pattern.Then, move the two shapes that come next into the boxes. ": {
+        
+        "type":"Drag and drop",
+        "Number":"2",
+         "DragFrom1": "(.//span[starts-with(@class,'lrn_draggable')][1])/span",
+        "DragTo1": ".//span[starts-with(@class,'lrn_cloze_response')][1]",
+        "DragFrom2": "(.//span[starts-with(@class,'lrn_draggable')][2])/span",
+        "DragTo2": ".//span[starts-with(@class,'lrn_cloze_response')][2]"
+    },
+    "Look at the pattern. Then, describe the pattern. Select from the drop-down menus. ": {
+        
+        "type": "Dropdown",
+        "Number": "3",
+        "Dropdown1": "(//select)[1]",
+        "Dropdown2": "(//select)[1]",
+        "Dropdown3": "(//select)[1]"
+        
+    }
+    
+    
+    
+    
+}
